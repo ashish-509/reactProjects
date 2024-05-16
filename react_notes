@@ -1,4 +1,0 @@
--> React hooks are used to manage state, side effects, and other React features in      functional components. 
-
--> reconciliation is the algorithm React uses to differentiate one tree (DOM) with another (react tree which comes from createRoot ) to determine which parts need to be changed. 
-reconciliation is the algorithm behind virtual DOM.

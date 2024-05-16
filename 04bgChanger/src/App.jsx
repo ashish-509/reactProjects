@@ -8,7 +8,8 @@ function App() {
   return (
 
     <div className="w-full h-screen duration-200"
-      style={{ backgroundColor: color }}
+      style={{ backgroundColor: color }} // sets the respective background colors.
+            // Caeful!! double curly braces in the above line.
     >
 
       <div className="fixed flex flex-wrap justify-center bottom-12 inset-x-0">
@@ -18,32 +19,32 @@ function App() {
           <button 
             onClick={() => setColor("red")} 
             className="outline-none px-4 py-1 m-3 rounded-xl text-white shadow-lg" 
-            style = {{backgroundColor : "red"}}
+            style = {{backgroundColor : "red"}} // This is for background color of the button.
           >Red</button>
 
           <button 
             onClick={() => setColor("black")} 
             className="outline-none px-4 py-1 m-3 rounded-xl text-white shadow-lg" 
-            style = {{backgroundColor : "black"}}
+            style = {{backgroundColor : "black"}}  // This is for background color of the button.
           >Black</button>
 
           <button 
             onClick={() => setColor("blue")} 
             className="outline-none px-4 py-1 m-3 rounded-xl text-white shadow-lg" 
-            style = {{backgroundColor : "blue"}}
+            style = {{backgroundColor : "blue"}}  // This is for background color of the button.
           >Blue</button>
 
           <button 
             onClick={() => setColor("green")} 
             className="outline-none px-4 py-1 m-3 rounded-xl text-white shadow-lg" 
-            style = {{backgroundColor : "green"}}
+            style = {{backgroundColor : "green"}}  // This is for background color of the button.
           >Green</button>
 
 
           <button 
             onClick={() => setColor("orange")} 
             className="outline-none px-4 py-1 m-3 rounded-xl text-white shadow-lg" 
-            style = {{backgroundColor : "orange"}}
+            style = {{backgroundColor : "orange"}}  // This is for background color of the button.
           >Orange</button>
 
         </div>
